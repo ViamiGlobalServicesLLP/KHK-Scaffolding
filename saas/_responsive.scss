@@ -1,0 +1,229 @@
+/*
+*
+* ==========================================
+*  Small devices (Mobile 576)
+* ==========================================
+*
+*/
+
+@media (max-width: 767px) {
+//   body {
+//     background-color: green;
+//   }
+
+
+/*========== Home Page ==========*/
+  .video_title {
+    font-size: 24px;
+    margin-inline-end: 3rem;
+    padding:0px 8px;
+  }
+  .video_subtitle {
+    font-size: 15px !important;
+    margin-inline-end: 3rem;
+    padding:0px 8px;
+  }
+  .video-background-content {
+    padding: 0 !important;
+    margin-inline: 10px !important;
+  }
+  /*==============Sections ================== */
+
+.ringaccess-content img {
+ float: none !important;
+}
+.lockslab-content img{
+  float: none !important;
+}
+.lockaccess-content  img{
+  float: none !important;
+}
+.homebox{
+  padding: 15px !important;
+}
+.homebox .slide-item__title{
+  font-size: 19px !important;
+}
+.textcontent ul li{
+  padding: 0 !important;
+}
+/*=================About Page==========*/
+.image-block-row {
+    flex-direction: column;
+}
+#timeline{
+  width: 95vw !important;
+}
+#issues li{
+  width: 772px !important;
+}
+#issues{
+   position: relative;
+}
+/*==============Video page====================*/
+.video-thumbnail {
+  width: 100% !important;
+}
+.videoGallary {
+  width: 100% !important;
+}
+.popupBox {
+  width: 100vw;
+  height: 100vh !important;
+}
+.Full.popupside video {
+  width: 96vw;
+  height: 60vh;
+  position: absolute;
+  top: 15%;
+  left: 2%;
+}
+/*======================Products pages PopupBox ========================*/
+.products-container {
+  display: initial;
+}
+.category-sec {
+  display: inherit;
+}
+.cat-box {
+  display: block;
+}
+.prduct-thumbnail {
+  width: 100%;
+}
+.product-right {
+  padding-inline-start: 1ch;
+}
+.popupModal {
+  display: inherit;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.cat_column {
+  width: 62vw;
+}
+.image-types {
+  width: 62vw;
+}
+.closed {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+.right {
+  padding-inline: 0;
+}
+.tab-gallary {
+  width: 61vw;
+}
+#expandedImg {
+  object-fit: contain;
+  width: 100%;
+}
+.popupModal{
+  display: none;
+}
+/*======================ver-sidebar ========================*/
+
+}
+/*
+*
+* ==========================================
+*   Medium devices (tablets, 768px and up)
+* ==========================================
+*
+*/
+
+@media (min-width: 768px) and (max-width: 992px)
+ {
+  body {
+    background-color: pink;
+  }
+  
+/*============ Home Page =================*/
+.video_title {
+  font-size: 50px;
+}
+.video_subtitle {
+  font-size: 20px !important;
+
+}
+/*==============Video page====================*/
+.video-thumbnail {
+  width: 26vw !important;
+}
+.videoGallary {
+  width: 29vw !important;
+}
+/*======================Products pages PopupBox ========================*/
+.cat-box {
+  width: 26vw;
+}
+img.prduct-thumbnail {
+  width: 23vw;
+  height: 17vh;
+}
+.image-types {
+height: auto;
+}
+/*======================ver-sidebar ========================*/
+.vert-nav-menus a {
+  font-size: 12px;
+}
+
+
+}
+/*
+*
+* ==========================================
+*  Large devices (desktops, 992px and up)
+* ==========================================
+*
+*/
+
+@media (min-width: 992px) and (max-width: 1200px)
+ {
+  body {
+    background-color: blue;
+  }
+}
+/*======================Products pages PopupBox ========================*/
+// .cat-box {
+//   width: 32vw;
+// }
+// img.prduct-thumbnail {
+//   width: 29.5vw;
+//   height: 17vh;
+// }
+// .image-types {
+// height: auto;
+// }
+
+
+/*
+*
+* ==========================================
+* X-Large devices (large desktops, 1200px and up)
+* ==========================================
+*
+*/
+
+@media (min-width: 1200px) and (max-width: 1400px) 
+{
+
+}
+/*
+*
+* ==========================================
+*  // XX-Large devices (larger desktops, 1400px and up)
+* ==========================================
+*
+*/
+
+@media (min-width: 1400px)
+ {
+  .product-right {
+min-width: 80%;
+}
+}

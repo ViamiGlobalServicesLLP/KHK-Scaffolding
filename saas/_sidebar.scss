@@ -1,0 +1,65 @@
+/*
+*
+* ==========================================
+*            Sidebar
+* ==========================================
+*
+*/
+
+.vertical-navigtn ul, li {
+    list-style-type: none;
+  } 
+  .ver-sidebar {
+    background: #F4F4F4;
+    padding: 25px;
+  }
+  ul.vert-nav-menus a {
+   margin-inline-start: 5px;
+    text-decoration: none;
+  }
+  .product-menu_item {
+    margin-block: 3px;
+  }
+  .prodct-menu_item a {
+    font-size: 16px;
+    color: white;
+  }
+  .product-submenu{
+    padding-inline-start: 10px;
+  }
+  .product-submenu_item a {
+    margin-block: 3px;
+  }
+  .product-submenu_item a{
+    color: var(--secondary-color);
+    font-size: 12px;
+    margin-block: 3px;
+  }
+  .cat1{
+    background-color: var(--light-blue) ;
+  }
+  .cat2{
+    background-color: var(--light-green) ;
+  }
+  .cat3{
+    background-color: var(--orange) ;
+  }
+  .cat4{
+    background-color: var(--dark-green) ;
+  }
+  .cat5{
+    background-color: var(--dark-blue) ;
+  }
+  .cat6{
+    background-color: var(--dark-red1) ;
+  }
+  .cat7{
+    background-color: var(--dark-red2) ;
+  }
+  .cat8{
+    background-color: var(--mid-blue) ;
+  }
+  li.product-submenu_item a {
+    text-transform: capitalize;
+}
+  

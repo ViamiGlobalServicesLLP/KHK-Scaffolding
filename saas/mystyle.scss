@@ -1,0 +1,404 @@
+@import "header";
+@import "variables";
+@import "mixin";
+@import "utility";
+@import "sidebar";
+@import "video";
+@import "products";
+@import "timelineslider";
+@import "responsive";
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+/*
+* ==========================================
+*            Footer
+* ==========================================
+*/
+.footer-block-top {
+  background: #cccccc;
+}
+/***** footer form top***** */
+.ft_row {
+  padding-block: 30px;
+}
+.newsletter-box h6 {
+  @include heading6;
+}
+
+.newsletter-box h6:after {
+  @include smallHr;
+}
+.footer_form label {
+  font-size: 13px;
+  width: 100%;
+  max-width: 100%;
+}
+.form-group label,
+input {
+  margin-block: 5px;
+}
+.form_controls {
+  height: 32px;
+  display: block;
+  width: 100%;
+  padding: 1px 2px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--secondary-color);
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid var(--secondary-color);
+  appearance: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.ft-info-details {
+  margin-block-end: 30px;
+}
+
+.ft-info-box {
+  color: var(--secondary-color);
+  font-size: 16px;
+  margin-block-end: 5px;
+}
+
+/***** social media icon ***** */
+.menu-social-items-container a {
+  text-decoration: none;
+}
+.ft-social{
+  font-weight: 700;
+  height: 24px;
+  line-height: 22px;
+  width: 24px;
+  text-align: center;
+  font-size: 11px;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 30px;
+  text-decoration: none;
+}
+.ft-social:hover {
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+.fab-facebook,
+.fab-instagram,
+.fab-youtube,
+.fab-linkedin {
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+/*
+*
+* ==========================================
+*            Footer Bottom
+* ==========================================
+*
+*/
+
+.footer-block {
+  background: #e3e3e3;
+}
+.half-box-ft h6 {
+  @include heading6;
+}
+.half-box-ft h5 {
+  @include heading5;
+}
+.ft-logo {
+  max-width: 120px;
+  margin-bottom: 20px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin-block-start: 6px;
+}
+.distribution_address h5 span {
+  display: block;
+  margin-block-start: 5px;
+  padding-top: 10px;
+  border-top: 1px solid #333;
+}
+/*
+*
+* ==========================================
+*            Home Page
+* ==========================================
+*
+*/
+.homerow .textcontent{
+  font-family: 'Oxygen', sans-serif !important;
+}
+
+/***** Video section ***** */
+
+.video_title {
+  max-width: 900px;
+  font-weight: 400;
+}
+.video_subtitle {
+  font-size: 20px;
+  font-weight: 400;
+}
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+/***************** Section1 ***************** */
+.ringaccess-image {
+  background-image: url("../assets/img/home-img/bg-section1-1.jpg");
+  background-size: cover;
+}
+.ringaccess-content {
+  background-color: var(--light-blue);
+}
+.ringaccess-content img {
+ float: right;
+}
+
+/***************** Section2 ***************** */
+.lockslab-image {
+  background-image: url("../assets/img/home-img/k-lock-slab-1.jpg");
+  background-size: cover;
+}
+.lockslab-content {
+  background-color: var(--orange);
+}
+.lockslab-content img{
+  float: right;
+}
+
+/***************** Section3 ***************** */
+.lockaccess-image {
+  background-image: url("../assets/img/home-img/bg-section3-1.jpg");
+  background-size: cover;
+}
+.lockaccess-content {
+  background-color: var(--light-green);
+}
+.lockaccess-content img{
+  float: right;
+}
+/***************** Section4 ***************** */
+.stagelab-image {
+  background-image: url("../assets/img/home-img/k-stage-slab.jpg");
+   background-size: cover;
+}
+.stagelab-content {
+  background-color: var(--dark-green);
+}
+/***************** Section5 ***************** */
+.wallform-image {
+  background-image: url("../assets/img/home-img/wallform.jpg");
+   background-size: cover;
+}
+.wallform-content {
+  background-color: var(--dark-red1);
+}
+/***************** Section6 ***************** */
+.frames-image {
+  background-image: url("../assets/img/home-img/frames-tubes-props.jpg");
+   background-size: cover;
+}
+.frames-content {
+  background-color: var(--dark-blue);
+}
+/***************** Section7 ***************** */
+.enprops-image {
+  background-image: url("../assets/img/home-img/en-props-2.jpg");
+   background-size: cover;
+}
+.enprops-content {
+  background-color: var(--dark-red2);
+}
+/*****************************/
+.homerow{
+  position: relative;
+}
+.page{
+  display: grid;
+}
+.readmore {
+  margin-block-start: 14px;
+  margin-inline-start: 15px;
+}
+.slide-item__title:first-letter {
+  font-weight: bolder;
+}
+.homebox {
+  font-family: "Oxygen", sans-serif;
+  padding: 4% 2% 2%;
+  min-height: 100vh;
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 26px;
+}
+.homebox ::marker{
+  font-size: 20px;
+}
+.homebox p {
+  letter-spacing: 2px;
+  font-family: "Oxygen", sans-serif;
+  margin-bottom: 20px;
+  font-size: 13px !important;
+  color: #efefef !important;
+}
+.homebox .slide-item__title {
+  color: white;
+ display: inline-block;
+  font-family: "Oxygen", sans-serif;
+  font-size: 22px !important;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  transition: 0.5s ease-in-out;
+}
+.homebox .slide-item__title::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #FF5441;
+  transition: width .3s;
+}
+
+.homebox .slide-item__title::after {
+  width: 100%;
+  transition: width .3s;
+}
+.homebox  a {
+  background: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: #4e9cb6;
+  font-size: 14px;
+  text-align: center;
+}
+.textcontent ul li {
+  width: 50%;
+  float: left;
+  font-size: 12px;
+  color: rgba(255,255,255,.8);
+  position: relative;
+  padding-left: 20px;
+  padding-right: 15px;
+  text-align: left;
+}
+.textcontent ul li:nth-child(2n+1) {
+  clear: both;
+}
+/*
+*
+* ==========================================
+*            About Page
+* ==========================================
+*
+*/
+.image-block-row {
+  display: flex;
+}
+.text-block p {
+  font-size: 16px;
+  margin: 18px;
+}
+.text-block strong {
+  font-size: 16px;
+}
+.entry-title:before {
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+  content: '';
+  height: 1px;
+  background-color: #cfcfcf;
+  position: relative;
+  left: 0;
+  bottom: -34px;
+  z-index: 1;
+}
+/*
+*
+* ==========================================
+*            Contact Page
+* ==========================================
+*
+*/
+.entry-title {
+  @include heading1;
+}
+.entry-title:after {
+  @include smallHr;
+}
+.c-form {
+  padding: 0 15px;
+  height: 42px;
+  width: 100%;
+  border: 1px solid #cfcfcf;
+}
+.contact-details {
+  margin: 0 auto;
+}
+.contact-row {
+  margin-block-end: 30px;
+}
+.contact-row textarea {
+  padding: 15px;
+  height: 110px;
+}
+.ajax-loader {
+  // visibility: hidden;
+  display: inline-block;
+  background: url(../assets/img/ajax-loader.gif);
+  width: 16px;
+  height: 16px;
+  border: none;
+  padding: 0;
+  margin: 0 0 0 4px;
+  vertical-align: middle;
+}
+.btn_submit {
+  @include button;
+}
+.btn_submit:hover {
+  @include buttonHover;
+}
+.row.contact-row label {
+  color: red;
+}

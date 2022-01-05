@@ -1,0 +1,58 @@
+/*
+*
+* ==========================================
+*            Videos
+* ==========================================
+*
+*/
+.videos {
+    width: 91vw;
+    margin: 0 auto;
+  }
+  .video-thumbnail {
+    width: 28vw;
+    cursor: pointer;
+    box-shadow: 0 7px 7px #777;
+  }
+  .video-box {
+    width: 30vw;
+    display: inline-block;
+  }
+  .video-title {
+    color: var(--secondary-color);
+    margin-block: 1ch;
+  }
+  .vid-link {
+    text-decoration: none;
+  }
+  .videoGallary{
+    width: 30vw;
+    display: inline-block;
+  }
+  .popupBox {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: auto;
+    padding: 40px;
+    box-shadow: 1px 1px 14px -5px gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    clear: both;
+    z-index: 3;
+  }
+  h6.video-title:hover {
+    color: red;
+  }
+  .Full.popupside {
+    display: flex;
+    justify-content: center;
+  }
+  .close {
+    color: white;
+    font-size: 4ch;
+    cursor: pointer;
+    float: right;
+    clear: both;
+  }
+  

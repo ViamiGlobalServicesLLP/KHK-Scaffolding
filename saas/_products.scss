@@ -1,0 +1,141 @@
+/*
+  * ==========================================
+  *            Coupler.php
+  * ==========================================
+  */
+  a
+//==============Breadcrump============================//
+  .breadcrumb>.item>a {
+    color: #de4e4e;
+    text-transform: uppercase;
+}
+
+main.prdct-display {
+  margin-block: 41px;
+}
+.category-sec {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+}
+.cat_image_row {
+  margin-block-start: 22px;
+  margin-inline-start: 12px;
+}
+.cat_column {
+  box-shadow: #795a5a59 0px 5px 15px;
+  width: 21vw;
+  margin-block-start: 10px;
+}
+.cat-box {
+  display: inline-block;
+  padding: 12px;
+  border: 1px solid darkgrey;
+  box-shadow: 0 0 8px 0 rgba(77, 77, 78, 0.767);
+  margin-block-end: 40px;
+  margin-inline: 4px;
+}
+// .cat-box:hover {
+//   margin-block-start: -15px;
+// }
+.product_link {
+  text-decoration: none;
+}
+.prdct-title {
+  padding-block: 8px;
+  font-size: 14px;
+  color: var(--secondary-color);
+  margin-bottom: 0;
+  background: #f0f0f0;
+  text-align: center;
+}
+.prdct-title:hover {
+  color: var(--main-color);
+}
+.prduct-thumbnail {
+  width: 20vw;
+  height: 40vh;
+  margin-block-end: 10px;
+}
+.image-types {
+  width: 20vw;
+  height: 45vh;
+  object-fit: contain;
+  cursor: pointer;
+}
+.products-container {
+  display: flex;
+}
+.product-right {
+  padding-inline-start: 6ch;
+}
+/*
+  * ==========================================
+  *            products popup
+  * ==========================================
+  */
+.closed {
+  height: 10%;
+  color: white;
+  font-size: 4ch;
+  cursor: pointer;
+  top: -36px;
+  position: relative;
+  margin-inline-start: 6px;
+}
+.popupModal {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  padding: 40px;
+  box-shadow: 1px 1px 14px -5px gray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clear: both;
+  z-index: 3;
+}
+.left.popupside {
+  background: white;
+  box-shadow: #00000059 0px 5px 15px;
+}
+
+.right {
+  background-color: white;
+  padding-inline: 5ch;
+}
+.tab-gallary {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-block-end: 25px;
+}
+.tabImages {
+  //  width: 60ch;
+  height: 40ch;
+}
+
+img#expandedImg {
+  display: flex;
+  margin: auto;
+}
+
+span.closebtn {
+  position: absolute;
+  font-size: 35px;
+  cursor: pointer;
+}
+.zoom-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.zoom-img > button {
+  background: transparent;
+  border: navajowhite;
+  font-size: 20px;
+  margin-inline: 5px;
+}
+
